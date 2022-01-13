@@ -5,7 +5,11 @@ ENV TZ=America/Detroit
 
 RUN apt update
 
+RUN apt install -y build-essential
+
 RUN apt install -y mesa-utils
+
+RUN apt install -y git
 
 RUN apt install -y software-properties-common
 
