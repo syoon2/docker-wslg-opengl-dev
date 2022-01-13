@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM nvidia/opengl:1.2-glvnd-devel-ubuntu20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=America/Detroit
