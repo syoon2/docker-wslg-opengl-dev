@@ -7,6 +7,10 @@ RUN apt update
 
 RUN apt install -y build-essential
 
+RUN apt install -y gdb
+
+RUN apt install -y freeglut3 freeglut3-dev
+
 RUN apt install -y mesa-utils
 
 RUN apt install -y git
