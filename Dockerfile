@@ -22,4 +22,5 @@ RUN chmod +x ./diagnostics.sh
 ENV DISPLAY=:0
 ENV LD_LIBRARY_PATH=/usr/lib/wsl/lib
 
-CMD ["./diagnostics.sh"]
+# CMD ["./diagnostics.sh"]
+CMD bash
