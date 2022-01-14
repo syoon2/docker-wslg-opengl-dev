@@ -1,7 +1,6 @@
 FROM nvidia/opengl:1.2-glvnd-devel-ubuntu20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
-ENV TZ=America/Detroit
 
 RUN apt update
 
