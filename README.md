@@ -41,4 +41,4 @@ Note that this container stores files in its own file system and you may want to
 
 ### Note on Windows 10
 Note that this configuration does NOT work with Windows 10, as WSLg is not supported in Windows 10.  
-There are ways to use graphical stuff with WSL in Windows 10 using 3rd-party programs like [Xming](https://sourceforge.net/projects/xming/) or [X410](https://x410.dev/), but you would have to edit some files in this repository before using. I have used them both in the path and neither of them were as smooth as using WSLg.
+There are ways to use graphical stuff with WSL in Windows 10 using 3rd-party programs like [Xming](https://sourceforge.net/projects/xming/) or [X410](https://x410.dev/), but you would have to edit some files in this repository before using. I had used them both in the path and neither of them were as smooth as using WSLg.
