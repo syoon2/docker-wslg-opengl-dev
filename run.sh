@@ -1,3 +1,5 @@
+#!/bin/bash
+
 docker build -t gpu_docker_wslg -f Dockerfile .
 docker run --gpus all \
     -e DISPLAY \
