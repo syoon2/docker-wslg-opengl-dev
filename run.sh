@@ -1,7 +1,7 @@
 #!/bin/bash
 
 docker build -t gpu_docker_wslg -f Dockerfile .
-docker run --gpus all \
+docker run --gpus all -d \
     -e DISPLAY \
     -e WAYLAND_DISPLAY \
     -e XDG_RUNTIME_DIR \
