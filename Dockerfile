@@ -12,7 +12,7 @@ RUN apt install -y freeglut3 freeglut3-dev
 
 RUN apt install -y mesa-utils
 
-RUN apt install -y git
+RUN apt install -y git nano
 
 RUN apt install -y software-properties-common
 
